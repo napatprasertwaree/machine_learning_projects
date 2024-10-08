@@ -1,2 +1,2 @@
 # Machine learning projects
-- recommender system
+- recommender system (content-based filtering and collaborative filtering)
