@@ -20,7 +20,7 @@ To visualize the approach taken in this project, please see the diagrams below:
 ![Content-Based Filtering](content_based_diagram.png)
 
 ## Methodology: Collaboration via Content
-Our "collaboration via content" strategy integrates content features to identify similar users, bridging the gap where collaborative filtering alone may fall short due to sparse data. By grouping users with similar interests based on content data, we enhance traditional collaborative filtering techniques. This approach is particularly effective for recommending movies within specific genres and can extend to diverse industries, supporting businesses in encouraging users to explore new products and services.
+Our "collaboration via content" strategy integrates content features to identify similar users, bridging the gap where collaborative filtering alone may fall short due to sparse data. By grouping users with similar interests based on content data, we enhance traditional collaborative filtering techniques. This approach is particularly effective for recommending movies within specific genres and can extend to diverse industries, supporting businesses in encouraging users to explore new products and services. In this project, it will utilize both recommender system to enhance performance.
 
 ## Key Features
 - **Explicit and Implicit Feedback Integration**: Handles explicit feedback for precise user preferences and implicit feedback to infer potential interests.
