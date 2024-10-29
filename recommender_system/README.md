@@ -20,7 +20,10 @@ To visualize the approach taken in this project, please see the diagrams below:
 ![Content-Based Filtering](content_based_diagram.png)
 
 ## Methodology: Collaboration via Content
-Our "collaboration via content" strategy integrates content features to identify similar users, bridging the gap where collaborative filtering alone may fall short due to sparse data. By grouping users with similar interests based on content data, we enhance traditional collaborative filtering techniques. This approach is particularly effective for recommending movies within specific genres and can extend to diverse industries, supporting businesses in encouraging users to explore new products and services. In this project, it will utilize both recommender system to enhance performance.
+Our "collaboration via content" strategy integrates content features to identify similar users, bridging the gap where collaborative filtering alone may fall short due to sparse data. By grouping users with similar interests based on content data, we enhance traditional collaborative filtering techniques. 
+
+### Portfolio Diversification
+A key advantage of content-based filtering is its ability to diversify recommendations effectively. Since this approach is based on the attributes of items rather than solely on user interactions, it allows for a broader exploration of available options. This is particularly effective for recommending movies within specific genres and can extend to diverse industries, supporting businesses in encouraging users to explore new products and services. In this project, both recommender systems will be utilized to enhance performance.
 
 ## Key Features
 - **Explicit and Implicit Feedback Integration**: Handles explicit feedback for precise user preferences and implicit feedback to infer potential interests.
@@ -32,8 +35,5 @@ Our "collaboration via content" strategy integrates content features to identify
 While this recommender system focuses on movie recommendations, the methods developed here can be generalized for various industries seeking to drive product discovery and engagement, particularly during growth phases or product launches.
 
 ## References:
-- Aggarwal, C. C. (2016). Recommender systems: The textbook. Springer.
-- Desai U. (2023 Apr 27). Recommendation Systems Explained: Understanding the Basic to Advance. Medium.
-
-
-
+- Aggarwal, C. C. (2016). *Recommender systems: The textbook*. Springer.
+- Desai, U. (2023, April 27). Recommendation systems explained: Understanding the basic to advance. Medium.
