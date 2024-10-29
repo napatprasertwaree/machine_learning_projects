@@ -10,6 +10,15 @@ One of the significant challenges in building effective recommendation models is
 
 This project aims to develop a hybrid recommender system that combines content-based and collaborative filtering approaches through a meta-level strategy. Our main objective is to compare the effectiveness of **Singular Value Decomposition (SVD)** against the proposed meta-level hybrid approach. This system will leverage movie details from IMDb to group users by content-based similarity and apply collaborative filtering for prediction.
 
+## Diagrams
+To visualize the approach taken in this project, please see the diagrams below:
+
+### Collaborative Filtering Diagram
+![Collaborative Filtering](collaborative_filtering.png)
+
+### Content-Based Filtering Diagram
+![Content-Based Filtering](content_based_diagram.png)
+
 ## Methodology: Collaboration via Content
 Our "collaboration via content" strategy integrates content features to identify similar users, bridging the gap where collaborative filtering alone may fall short due to sparse data. By grouping users with similar interests based on content data, we enhance traditional collaborative filtering techniques. This approach is particularly effective for recommending movies within specific genres and can extend to diverse industries, supporting businesses in encouraging users to explore new products and services.
 
