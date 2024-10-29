@@ -30,3 +30,10 @@ Our "collaboration via content" strategy integrates content features to identify
 
 ## Potential Applications
 While this recommender system focuses on movie recommendations, the methods developed here can be generalized for various industries seeking to drive product discovery and engagement, particularly during growth phases or product launches.
+
+## References:
+- Aggarwal, C. C. (2016). Recommender systems: The textbook. Springer.
+- Desai U. (2023 Apr 27). Recommendation Systems Explained: Understanding the Basic to Advance. Medium.
+
+
+
