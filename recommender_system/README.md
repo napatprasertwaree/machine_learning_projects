@@ -3,7 +3,7 @@
 ## Overview
 In modern recommender systems, leveraging user feedback is crucial for improving recommendation quality and enhancing user satisfaction. Feedback data can be broadly classified into two types: **explicit feedback** (e.g., ratings and likes) and **implicit feedback** (e.g., clicks and purchase history). While explicit feedback provides direct insight into user preferences, implicit feedback is inferred from user interactions and can be valuable in understanding underlying interests.
 
-This project addresses the challenges associated with implicit feedback, with careful handling of missing values: avoiding interpretation of missing explicit feedback as zeros, which could misrepresent user sentiments, while treating zeros in implicit feedback as a lack of interest.
+This project addresses the challenges associated with explicit feedback, with careful handling of missing values: avoiding interpretation of missing explicit feedback as zeros, which could misrepresent user sentiments, while treating zeros in implicit feedback as a lack of interest.
 
 ## Challenges and Goals
 One of the significant challenges in building effective recommendation models is the **sparsity** of user ratings, which hinders the performance of traditional algorithms like K-Nearest Neighbors (KNN). Beyond accuracy, additional evaluation metrics such as **diversity** and **serendipity** are critical for engaging users by offering varied and occasionally unexpected recommendations.
@@ -26,7 +26,7 @@ The "collaboration via content" strategy integrates content features to identify
 A key advantage of content-based filtering is its ability to diversify recommendations effectively. Since this approach is based on the attributes of items rather than solely on user interactions, it allows for a broader exploration of available options. This is particularly effective for recommending movies within specific genres and can extend to diverse industries, supporting businesses in encouraging users to explore new products and services. In this project, both recommender systems will be utilized to enhance performance.
 
 ## Key Features
-- **Explicit and Implicit Feedback Integration**: Handles explicit feedback for precise user preferences and implicit feedback to infer potential interests.
+- **Explicit Feedback Integration**: Handles explicit feedback for precise user preferences.
 - **Diversity and Serendipity**: Provides varied and unexpected recommendations to improve user engagement.
 - **Meta-Level Hybrid Approach**: Combines the strengths of content-based filtering and collaborative filtering for more accurate predictions.
 - **Comparison with SVD**: Evaluates the performance of the hybrid system against a standard SVD approach, highlighting the benefits of the hybrid model in sparse data environments.
