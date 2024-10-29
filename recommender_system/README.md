@@ -3,12 +3,12 @@
 ## Overview
 In modern recommender systems, leveraging user feedback is crucial for improving recommendation quality and enhancing user satisfaction. Feedback data can be broadly classified into two types: **explicit feedback** (e.g., ratings and likes) and **implicit feedback** (e.g., clicks and purchase history). While explicit feedback provides direct insight into user preferences, implicit feedback is inferred from user interactions and can be valuable in understanding underlying interests.
 
-This project addresses the challenges associated with both types of feedback, with careful handling of missing values: avoiding interpretation of missing explicit feedback as zeros, which could misrepresent user sentiments, while treating zeros in implicit feedback as a lack of interest.
+This project addresses the challenges associated with implicit feedback, with careful handling of missing values: avoiding interpretation of missing explicit feedback as zeros, which could misrepresent user sentiments, while treating zeros in implicit feedback as a lack of interest.
 
 ## Challenges and Goals
 One of the significant challenges in building effective recommendation models is the **sparsity** of user ratings, which hinders the performance of traditional algorithms like K-Nearest Neighbors (KNN). Beyond accuracy, additional evaluation metrics such as **diversity** and **serendipity** are critical for engaging users by offering varied and occasionally unexpected recommendations.
 
-This project aims to develop a hybrid recommender system that combines content-based and collaborative filtering approaches through a meta-level strategy. Our main objective is to compare the effectiveness of **Singular Value Decomposition (SVD)** against the proposed meta-level hybrid approach. This system will leverage movie details from IMDb to group users by content-based similarity and apply collaborative filtering for prediction.
+This project aims to develop a hybrid recommender system that combines content-based and collaborative filtering approaches through a meta-level strategy. Our main objective is to compare the effectiveness of **Singular Value Decomposition (SVD)** against the proposed meta-level hybrid approach. This system will leverage movie details from IMDB to group users by content-based similarity and apply collaborative filtering for prediction.
 
 ## Diagrams
 To visualize the approach taken in this project, please see the diagrams below:
@@ -20,7 +20,7 @@ To visualize the approach taken in this project, please see the diagrams below:
 ![Content-Based Filtering](content_based_diagram.png)
 
 ## Methodology: Collaboration via Content
-Our "collaboration via content" strategy integrates content features to identify similar users, bridging the gap where collaborative filtering alone may fall short due to sparse data. By grouping users with similar interests based on content data, we enhance traditional collaborative filtering techniques. 
+The "collaboration via content" strategy integrates content features to identify similar users, bridging the gap where collaborative filtering alone may fall short due to sparse data. By grouping users with similar interests based on content data, we enhance traditional collaborative filtering techniques. 
 
 ### Portfolio Diversification
 A key advantage of content-based filtering is its ability to diversify recommendations effectively. Since this approach is based on the attributes of items rather than solely on user interactions, it allows for a broader exploration of available options. This is particularly effective for recommending movies within specific genres and can extend to diverse industries, supporting businesses in encouraging users to explore new products and services. In this project, both recommender systems will be utilized to enhance performance.
